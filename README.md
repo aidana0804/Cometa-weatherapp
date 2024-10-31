@@ -57,13 +57,15 @@ This is a simple weather application built with Node.js, Express, and Handlebars
 
 3. **Example of testing APIs via Postman**:
 
-   ![image](https://github.com/user-attachments/assets/1876f4df-f041-4314-8630-421c76c2ec3d)
+   ![image](https://github.com/user-attachments/assets/4a25f4b7-fe7f-4921-987a-2ed616af1ca1)
+
+   ![image](https://github.com/user-attachments/assets/d3595dc3-2eb6-4cc7-bfb6-2a4f4dfab79b)
+
+
 
 
    
-![image](https://github.com/user-attachments/assets/de615740-458d-4365-852c-0b9c8d861fd0)
-
-4. **U3. **Example of UI**:
+5. **U3. **Example of UI**:
    ![image](https://github.com/user-attachments/assets/691a48e5-bbaf-4499-8d71-b1197590c313)
 
 
