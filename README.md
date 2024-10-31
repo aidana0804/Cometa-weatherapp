@@ -6,16 +6,6 @@ Certainly! Here’s a `README.md` template for your Express-based weather app. T
 
 This is a simple weather application built with Node.js, Express, and Handlebars. The application serves a weather forecast based on user input, allowing both `GET` and `POST` requests to fetch weather data for a specified location.
 
-## Features
-
-- Retrieve weather information based on an address input.
-- Supports both `GET` and `POST` requests for fetching weather data.
-- Renders views using Handlebars templates.
-
-## Prerequisites
-
-- **Node.js** (version 14 or higher recommended)
-- **NPM** (comes with Node.js)
 
 ## Installation
 
@@ -37,18 +27,6 @@ This is a simple weather application built with Node.js, Express, and Handlebars
    - Create a `.env` file in the project root (if not already present).
    - Define `PORT` if you want to specify a custom port (optional, defaults to 3000).
 
-## Project Structure
-
-```
-├── public/                 # Static files served to the client (e.g., CSS, JavaScript)
-├── templates/
-│   ├── views/              # Handlebars views (e.g., index.hbs)
-│   └── partials/           # Handlebars partial templates (e.g., header.hbs)
-├── utils/
-│   └── weatherData.js      # Weather data fetching utility function
-├── app.js                  # Main application file
-└── package.json            # NPM metadata and dependencies
-```
 
 ## Scripts
 
@@ -77,24 +55,19 @@ This is a simple weather application built with Node.js, Express, and Handlebars
    - **POST /weather** - Accepts JSON data in the request body with an `address` field. Returns weather data for the specified address.
    - **GET /** (404 Page) - Renders a 404 page if the requested route is not found.
 
-3. **Example POST Request**:
+3. **Example of testing APIs via Postman**:
 
-   Use a tool like **Postman** or **curl** to send a POST request:
+   ![image](https://github.com/user-attachments/assets/1876f4df-f041-4314-8630-421c76c2ec3d)
 
-   ```bash
-   curl -X POST http://localhost:3000/weather -H "Content-Type: application/json" -d '{"address": "New York"}'
-   ```
 
-## Technologies Used
+   
+![image](https://github.com/user-attachments/assets/de615740-458d-4365-852c-0b9c8d861fd0)
 
-- **Express**: Fast, unopinionated web framework for Node.js.
-- **Handlebars**: Template engine for rendering HTML views.
-- **path**: Core Node.js module for handling file paths.
-- **dotenv** (optional): For loading environment variables if needed.
+4. **U3. **Example of UI**:
+   ![image](https://github.com/user-attachments/assets/691a48e5-bbaf-4499-8d71-b1197590c313)
 
-## Contributing
 
-Feel free to fork the repository and submit pull requests.
+
 
 ---
 
