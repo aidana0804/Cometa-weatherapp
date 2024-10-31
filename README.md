@@ -67,8 +67,3 @@ This is a simple weather application built with Node.js, Express, and Handlebars
    ![image](https://github.com/user-attachments/assets/691a48e5-bbaf-4499-8d71-b1197590c313)
 
 
-
-
----
-
-This README should give a clear overview of your app's purpose, setup, and usage. Let me know if you’d like any adjustments or more details in certain sections!
